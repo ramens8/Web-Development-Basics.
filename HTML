@@ -1,0 +1,48 @@
+Welcome to Ray's web development journey. The following will be list of useful tags used in HTML/5.
+
+Organisation
+<!DOCTYTPE html> - Defines this as HTML5 being used and starts at the begninning of every webpage.
+<!DOCTYPE ...> - Defines this as HTML being used and starts at the begninning of every webpage. 
+<html></html>
+<head></head> - Mark-up information about your page goes iwthin this tag (including meta-data elements such as link, title, style).
+<body></body> - Mark-up with the content of your page (which displays for the user) goes within this tag.
+
+Example of a page layout
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!-- Meta data elements -->
+    </head>
+    <body>
+      <!-- Page contents -->
+    </body>
+  </html>
+
+Heading Sizes - 1 is largest, 6 is smallest)
+<h1></h1> - <h6></h6>
+<p> insert text </p> - Paragraph (body)
+<br /> - Line break (self-closing)
+<hr /> - Horizontal line (self-closing)
+
+Images (self-closing)
+<img src="insert relative image file" (src = source = pathing for the image)
+../image.bmp (going up a level for relative file paths) 
+
+Linking with Anchor Elements
+<a href="destination">I am an internal link</a>
+Connects and links to
+<p id="destination">I am the destination of the link</p>
+
+Opening a new tab based on target value
+<a target="_blank" href="external website">title of external website</a>
+
+Radio Buttons (circle shaped) - Check circles where you want the user to only give you one answer out of multiple options. Best practice to set for a (definition of the label) to allow assistive technologies to create linked relationships between label and input element.
+<label for="indoor".
+	<input id="indoor" type"radio" name="indoor-outdoor">Indoor
+</label>
+
+Checkboxes (square) - Questions that may have more than one answer
+<label for="identification"><input id="identification" type"checkbox" name="category">Text</label>
+
+Radio Buttons & Checkboxes - Adding "Checked" at the start.
+Eg., <label for="indoor"><input id="indoor" type"=radio" name="indoor-outdoor" checked>indoor</label>
